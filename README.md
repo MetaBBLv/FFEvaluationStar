@@ -1,6 +1,9 @@
 # FFEvaluationStar
 自定义商品评价打分的星星
 
+## 截图
+![FFEvaluationStar](./FFEvaluationStar.gif)
+
 ## 分为两种模式：
   1、默认版本
   2、带标题版本
