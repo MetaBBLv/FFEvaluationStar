@@ -10,12 +10,11 @@
   然后初始化即可
   ```
   /**
- 默认版初始化
+    默认版初始化
  */
 - (FFStarView *)goodsStar {
     if (!_goodsStar) {
         _goodsStar = [[FFStarView alloc] initWithFrame:CGRectZero StarNum:4 NormalImage:@"icon_star_normal_" selectImage:@"icon_star_select_"];
-//        [[FFStarView alloc] initWithWithFrame:CGRectZero Title:@"商品评分" StarNum:5 NormalImage:@"icon_star_normal_" selectImage:@"icon_star_select_"];
     }
     return _goodsStar;
 }
@@ -23,7 +22,7 @@
   带标题版初始化
   ```
   /**
- 带标题版初始化
+    带标题版初始化
  */
 - (FFStarView *)storeDescriptStar {
     if (!_storeDescriptStar) {
